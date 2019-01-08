@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { EnderecoComponent } from './endereco/endereco.component';
 import { BaseComponent } from './base/base.component';
+import { Base2Component } from './base2/base2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     EnderecoComponent,
-    BaseComponent
+    BaseComponent,
+    Base2Component
   ],
   imports: [
     BrowserModule,
